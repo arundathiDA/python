@@ -1,0 +1,28 @@
+Gross Income
+
+def calculate_net_income(gross,state):
+    """
+    calculate the net income after fedral and state tax
+    :param gross:Gross Income
+    :param state:State Name
+    :return:Net Income
+    """
+state_tax = {'CA': 10, 'NY':9,'TX':0,'NJ':6}
+
+#calculate the net income after fedral tax
+net = gross-(gross*.10)
+
+#calculate net income after state tax
+if state in state_tax:
+    net = net - (gross*state_tax[state]/100)
+    print("Your net income after all heavy taxes is:"+str(net))
+    return net
+else:
+    print("State not in the list")
+    return None
+
+calculate_net_income(100000,'CA')
+
+
+
+
