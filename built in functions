@@ -1,0 +1,38 @@
+#built in function
+
+#max():it takes any number of arugument and returns the largest  one.
+
+#min():it takes any number of arugument and returns the smallest one.
+
+#abs(): it returns the absolute value of the number, that number's distance from 0.
+# it always returns positive value and it only takes a single number.
+
+#type(): it returns the type of the data it receives as an argument.
+
+
+#max
+def largest_num(*args):
+    print(max(args))
+    return(max(args))
+
+
+largest_num(-20,-10,0,30,40)
+
+#min
+
+def smallest_num(*args):
+    print(min(args))
+
+smallest_num(30,-20,45,60)
+
+#abs
+def abs_function(a):
+    print(abs(a))
+abs_function(-20)
+abs_function(50)
+
+#type
+print(type(99.99))
+print(type("99.99"))
+print(type(99.0))
+print("*****")
