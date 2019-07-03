@@ -1,0 +1,36 @@
+'''Exceptions are errors
+'''
+
+def exceptionHandling():
+    try:
+        a = 10
+        b = 20
+        c = 10
+                 #EITHER
+        a = 10
+        b = 20
+        c = 0
+
+        d = (a + b)/c
+        print(d)
+    except:
+        print("In the except block")
+       # raise Exception("This is exception")   use to handle exception if required
+    else:
+        print("Because there was no exception,else is executed")
+    finally:
+        print("Finally, always executed")
+exceptionHandling()
+
+
+#assignment
+def exceptionalhandling():
+   try:
+       car = {"make":"BMW","model":"440u","year":"2019"}
+       print(car["colour"])
+   except:
+       print("key not found")
+   finally:
+       print("Please try a different key")
+
+exceptionalhandling()
