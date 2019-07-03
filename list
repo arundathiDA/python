@@ -1,0 +1,53 @@
+#collection of diff Values[]
+#pop return the value
+#access list
+#assign replace
+#append
+#insert
+#slicing
+#sorting
+
+#remove doesnot return the value
+#append (), extend[],insert()
+#append  will add to the last value,specific value.
+#extend[ ]
+#insert() it inserts on which place required
+
+
+cars = ["BMW","AUDI","HONDA"]
+print(cars)
+print("*#"*20)
+print(cars[1])
+
+#access list
+num_list = [1,2,3]
+sum_num = num_list[0] + num_list[1]
+print(sum_num)
+
+#assign value / replace values
+more_cars = ["BMW","AUDI","HONDA"]
+more_cars[1]="Benz"
+print(more_cars[1])
+
+#append(add a vale from the end)
+cars.append("Jeep")
+print(cars)
+
+#insert
+cars.insert(2,"Hyundai")
+print(cars)
+
+#index (identify)
+x = cars.index("Hyundai")
+print(x)
+
+#pops removes from the end()
+y = cars.pop()
+print(y)
+
+#slicing
+slicing = cars[0:]
+print(slicing)
+#sorting
+cars.sort()
+print(cars)
