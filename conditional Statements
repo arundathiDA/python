@@ -1,0 +1,83 @@
+
+#conditional Statements
+a = 12
+b = 9
+
+if (a>b):
+    print("Great")
+elif a == b:
+    print("Equal")
+else:
+    print("Not Matching")
+
+# conditional Statements
+
+aru = 18
+
+if (aru >= 18):
+    print("U can vote")
+elif aru == 18:
+    print("Try next time")
+else:
+    print("Next year")
+
+#practice demo class
+
+
+class car(object):
+    def __init__(self):
+        print("you just created instance")
+    def drive(self):
+        print("car started")
+    def stop(self):
+        print("car stopped")
+
+c = car()
+c.drive()
+c.stop()
+# bmw inheritance(car)
+class BMW(car):
+
+    def inti (self):
+        print("you just started a bmw instance")
+
+b = BMW()
+b.stop()
+b.drive()
+
+
+
+
+
+n = 2
+
+if (n % 2) == 0:
+    print("even")
+else:
+    print("odd")
+
+
+marks = int (input("enter marks : "))
+
+if ((marks<=100)&(marks>80)):
+    print("Grade A")
+elif ((marks<=80)&(marks>60)):
+    print("Grade B")
+elif ((marks<=60)&(marks>40)):
+    print("Grade c")
+elif ((marks<=40 )&(marks>0)):
+    print("Fail")
+
+else:
+    print("Invalid marks")
+
+
+
+
+
+#To find area
+s =  int(input("Enter no of sides: "))
+if (s==1):
+    a=int(input("Enter A: "))
+    area_sqe = a*a
+    print(area_sqe)
