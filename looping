@@ -1,0 +1,35 @@
+#conditional logic
+
+#While loop
+#BREAK STATEMENT: to break out of closest enclosing loop(it will break)
+#Continue : Go to the  start of the closest enclosing loop(just continue)
+
+x = 0
+while x < 10:
+ print("value of x is " + str(x))
+ x = x + 1
+ if x == 8:
+     continue
+ or
+     break
+     print("This EXAMPLE IS AWESOME")
+
+#while loop
+
+l = []
+num = 0
+while num < 10:
+      l.append(num)
+      num += 1
+print(l)
+
+# forloop
+
+nums =  [1,2,3]
+for n in nums:
+     print(n + 10)
+#dictionary for loop
+d = {"one = 1", "Two = 2", "Three = 3"}
+for k in d:
+     print(k + " " + str(d))
+
