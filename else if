@@ -1,0 +1,38 @@
+# n = 2
+#
+# if (n % 2) == 0:
+#     print("even")
+# else:
+#     print("odd")
+#
+#
+# marks = int (input("enter marks : "))
+#
+# if ((marks<=100)&(marks>80)):
+#     print("Grade A")
+# elif ((marks<=80)&(marks>60)):
+#     print("Grade B")
+# elif ((marks<=60)&(marks>40)):
+#     print("Grade c")
+# elif ((marks<=40 )&(marks>0)):
+#     print("Fail")
+#
+# else:
+#     print("Invalid marks")
+
+
+
+
+
+s =  int(input("Enter no of sides: "))
+if (s==1):
+    a=int(input("Enter A: "))
+    area_sqe = a*a
+    print(area_sqe)
+# else(s==2)
+#     length= int(input("Enter Length: "))
+#     width=int(input("Enter width: "))
+#     area_rec = length*width
+# print(area_rec)
+#   else:
+# print("Invalid")
